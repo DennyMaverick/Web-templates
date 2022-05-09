@@ -68,5 +68,7 @@ const themes = {
   })
 })
   ```
-
+<p>
+  ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
+</p>
 
