@@ -76,7 +76,7 @@ const themes = {
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
 
 <p>
-  The projects in portfolio will be added regularly. Now there is one available project and one announced project. First is the theme's switcher in modals: 
+  The projects in portfolio will be added regularly. Now there is one available project and one announced project. First is the theme's switcher in modal windows: 
 </p>
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-dark.png)
