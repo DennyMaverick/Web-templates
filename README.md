@@ -123,7 +123,7 @@ currentSlider.on("afterChange", function (event) {
 </p>
 
 <p>
-  Making this project I found some dificulties when I replaced it using gulp. Firstly, it was made with scss compiler Coala, then I used webpack and break all javascript files on modules. And when I was doing it, I got some error that slick slider can not be switched. And next I found that I involved jQuery using gulp - after the file slick.js. But I completed this task using separate task in gulp:
+  Making this project I found some dificulties when I replaced it using gulp. Firstly, it was made with scss compiler Koala, then I used webpack and break all javascript files on modules. And when I was doing it, I got some error that slick slider can not be switched. And next I found that I involved jQuery using gulp - after the file slick.js. But I completed this task using separate task in gulp:
 </p>
 
 ```
