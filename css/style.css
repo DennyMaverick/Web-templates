@@ -208,7 +208,7 @@ a:focus {
 
 .work--blocked {
   position: relative;
-  background: none;
+  background: none !important;
 }
 
 .work--blocked::before {
