@@ -96,7 +96,6 @@ currentSlider.on("afterChange", function (event) {
 
       if (currentSlideItem.classList.contains("slide--light")) {
         for (key in lightTheme) {
-          // поменять document на currentModal
           const elems = currentModal.querySelectorAll("." + key)
           elems.forEach((elem) => {
             if (lightTheme[key].light) {
