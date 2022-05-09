@@ -85,3 +85,34 @@ const themes = {
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-light.png)
 
+<p>
+  It was made by this code: 
+</p>
+
+```
+currentSlider.on("afterChange", function (event) {
+      let currentSlide = event.target.querySelector(".slick-active")
+      let currentSlideItem = currentSlide.querySelector(".slider__item")
+
+      if (currentSlideItem.classList.contains("slide--light")) {
+        for (key in lightTheme) {
+          // поменять document на currentModal
+          const elems = currentModal.querySelectorAll("." + key)
+          elems.forEach((elem) => {
+            if (lightTheme[key].light) {
+              elem.classList.add(`${lightTheme[key].light}`)
+            }
+          })
+        }
+      } else {
+        for (key in lightTheme) {
+          const elems = currentModal.querySelectorAll("." + key)
+          elems.forEach((elem) => {
+            if (lightTheme[key].light) {
+              elem.classList.remove(`${lightTheme[key].light}`)
+            }
+          })
+        }
+      }
+    })
+```
