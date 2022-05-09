@@ -12,6 +12,8 @@ For making the project I used these web-technologies:
 ![jquery / sclick](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/4.svg) 
 ![flexbox](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/2.svg)
 ![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/3.svg)
+![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/5.svg)
+![scss](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/6.svg)
 
 <p>
   This portfolio has theme's switcher. Colors change smoothly, for this I used the object there I put all selectors and when theme is checked I added to all these selectors the class with modificator --light or --dark: 
