@@ -53,7 +53,7 @@ const themes = {
 }
 ```
   <p>
-  When the user switched off his browser the theme is saved. It was made using local storage. The value 'theme' in local storage changes on dark or light in moment when user clicked on the sun or moon icons:
+  When user switched off his browser the theme is saved. It was made using local storage. The value 'theme' in local storage changes on dark or light in moment when user clicked on the sun or moon icons:
   </p>
   
   ```
