@@ -171,3 +171,7 @@ const jquerylib = () => {
 module.exports = jquerylib
 
 ```
+
+<p>
+  If you have some ideas how can I improve my project write please to my e-mail: den_maverick177@mail.ru. This is only start. It will be amazing! See you later 😉
+</p>
