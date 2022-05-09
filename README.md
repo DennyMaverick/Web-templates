@@ -115,3 +115,59 @@ currentSlider.on("afterChange", function (event) {
       }
     })
 ```
+
+<p>
+  Here is slick slider used. It is jQuery library that helps to set custom sliders on sites.
+</p>
+
+<p>
+  Making this project I found some dificulties when I replaced it using gulp. Firstly, it was made with scss compiler Coala, then I used webpack and break all javascript files on modules. And when I was doing it, I got some error that slick slider can not be switched. And next I found that I involved jQuery using gulp - after the file slick.js. But I completed this task using separate task in gulp:
+</p>
+
+```
+// path.js
+
+jquerylib: {
+    src: "./node_modules/jquery/dist/jquery.js",
+    dest: pathDest + "/js/libs/jquery",
+  },
+``` 
+
+```
+const {src, dest} = require("gulp")
+
+// Configuration
+
+const path = require("../config/path.js")
+const app = require("../config/app.js")
+
+// Plugins
+
+const plumber = require("gulp-plumber")
+const notify = require("gulp-notify")
+const babel = require("gulp-babel")
+const uglify = require("gulp-uglify")
+const strips = require("gulp-strip-comments")
+
+// jQuery task
+
+const jquerylib = () => {
+  return (
+    src(path.jquerylib.src)
+      .pipe(
+        plumber({
+          errorHandler: notify.onError((error) => ({
+            title: "JavaScript",
+            message: error.message,
+          })),
+        })
+      )
+      .pipe(strips())
+      .pipe(uglify())
+      .pipe(dest(path.jquerylib.dest))
+  )
+}
+
+module.exports = jquerylib
+
+```
