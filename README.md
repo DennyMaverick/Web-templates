@@ -78,3 +78,10 @@ const themes = {
 </p>
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-dark.png)
+
+<p>
+  Also was made: when you open the modal window with the Theme's Switcher In MOdal Windows project, you can see that the colors change in modal window after click on next button or prev button. Changes are smooth:
+</p>
+
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-light.png)
+
