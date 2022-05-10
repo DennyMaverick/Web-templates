@@ -5,6 +5,7 @@
 ***
 
 <p>
+  
   Ru:
   
     Данный проект был создан чтобы продемонстрировать мои навыки в веб-разработке. Это мини-портфолио, куда я буду сохранять свои pet-проекты и не только. 
@@ -23,6 +24,8 @@ For making the project I used these web-technologies:
 ![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/3.svg)
 ![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/5.svg)
 ![scss](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/6.svg)
+
+***
 
 <p>
   Ru:
@@ -72,6 +75,8 @@ const themes = {
   },
 }
 ```
+
+
   <p>
   Ru:
   
@@ -97,7 +102,6 @@ const themes = {
 })
   ```
   
-  ***
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
 
@@ -168,6 +172,7 @@ currentSlider.on("afterChange", function (event) {
     })
 ```
 
+
 <p>
   Ru:
   
@@ -179,6 +184,8 @@ currentSlider.on("afterChange", function (event) {
   
   Here is slick slider used. It is jQuery library that helps to set custom sliders on sites.
 </p>
+
+***
 
 <p>
   Ru:
@@ -239,6 +246,7 @@ const jquerylib = () => {
 module.exports = jquerylib
 
 ```
+
 
 <p>
   Ru:
