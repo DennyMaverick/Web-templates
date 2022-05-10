@@ -4,7 +4,16 @@
 
 ***
 
-<p>This project was created to perfomance my skills in web-developing. This is my mini-portfolio where I will save my pet projects and not only.  
+<p>
+  Ru:
+  
+    Данный проект был создан чтобы продемонстрировать мои навыки в веб-разработке. Это мини-портфолио, куда я буду сохранять свои pet-проекты и не только. 
+</p>
+
+<p>
+  En:
+  
+  This project was created to perfomance my skills in web-developing. This is the mini-portfolio where I will save my pet projects and not only.  
 For making the project I used these web-technologies: 
 </p>
 
@@ -16,7 +25,16 @@ For making the project I used these web-technologies:
 ![scss](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/6.svg)
 
 <p>
-  This portfolio has theme's switcher. Colors change smoothly, for this I used the object there I put all selectors and when theme is checked I added to all these selectors the class with modificator --light or --dark: 
+  Ru:
+  
+  Портфолио содержит переключатель тем. Цвета меняются плавно, для использования данного переключателя был создан объект, куда я положил названия селекторов в качестве ключей. Когда тема выбрана, я добавляю ко всем элементам, которые имеют данные селекторы, модификаторы --dark или --light:
+</p>
+
+<p>
+  
+  En:
+  
+  This portfolio has theme's switcher. Colors change smoothly, for this I used the object there I put all selectors and when the theme is checked I adding to all these selectors the class with modificator --light or --dark: 
 </p>
 
   
@@ -55,6 +73,14 @@ const themes = {
 }
 ```
   <p>
+  Ru:
+  
+  Когда пользователь выключает свой браузер, тема сохраняется. Это достигнуто благодаря local storage. В момент клика значение 'theme' устанавливается в local storage на light или dark:
+  </p>
+
+  <p>
+  En:
+  
   When user switched off his browser the theme is saved. It was made using local storage. The value 'theme' in local storage changes on dark or light in moment when user clicked on the sun or moon icons:
   </p>
   
@@ -76,18 +102,42 @@ const themes = {
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
 
 <p>
+  Ru:
+  
+  Проекты в портфолио будут добавляться регулярно. Сейчас там доступен один проект, еще один анонсирован. Первым проектом является 'Переключатель тем в модальных окнах': 
+</p>
+
+<p>
+  En:
+  
   The projects in portfolio will be added regularly. Now there is one available project and one announced project. First is the theme's switcher in modal windows: 
 </p>
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-dark.png)
 
 <p>
-  Also was made: when you open the modal window with the Theme's Switcher In Modal Windows project, you can see that the colors change in modal window after click on next button or prev button. Changes are smooth:
+  Ru:
+  
+  Также было сделано: когда вы открываете модальное окно с проектом 'Переключатель тем в модальных окнах' вы можете увидеть, что цвета меняются в модальном окне после клика на кнопки 'Вперед' и 'Назад'. Изменения происходят плавно.
+</p>
+
+<p>
+  En:
+  
+  Also it was made: when you open the modal window with the Theme's Switcher In Modal Windows project, you can see that the colors change in modal window after click on next button or prev button. Changes are smooth:
 </p>
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-light.png)
 
 <p>
+  Ru:
+  
+  Это было создано с помощью этого кода:
+</p>
+
+<p>
+  En:
+  
   It was made by this code: 
 </p>
 
@@ -119,10 +169,26 @@ currentSlider.on("afterChange", function (event) {
 ```
 
 <p>
+  Ru:
+  
+ Здесь используется slick слайдер. Это jQuery библиотека, которая помогает устанавливать на сайты кастомизированные слайдеры.
+</p>
+
+<p>
+  En:
+  
   Here is slick slider used. It is jQuery library that helps to set custom sliders on sites.
 </p>
 
 <p>
+  Ru:
+  
+  Работая над проектом я столкнулся с некоторыми сложностями, когда переносил проект в сборку gulp. Сначала, компиляция scss происходила через программу Koala, позже я использовал webpack и разбил все javascript файлы на отдельные модули. И когда я делал это, я обнаружил ошибку в slick слайдере, что слайдер не может быть запущен. И дальше я нашел, что я подключил jQuery библиотеку позже js-файла slick. Но я решил это, подключив отдельную задачу в gulp для jQuery:
+</p>
+
+<p>
+  En:
+  
   Making this project I found some dificulties when I replaced it using gulp. Firstly, it was made with scss compiler Koala, then I used webpack and break all javascript files on modules. And when I was doing it, I got some error that slick slider can not be switched. And next I found that I involved jQuery using gulp - after the file slick.js. But I completed this task using separate task in gulp:
 </p>
 
@@ -175,5 +241,13 @@ module.exports = jquerylib
 ```
 
 <p>
-  If you have some ideas how can I improve my project write please to my e-mail: den_maverick177@mail.ru. This is only start. It will be amazing! See you later 😉
+  Ru:
+  
+  Если у вас есть идеи, как улучшить данный проект напишите мне пожалуйста на почту: den_maverick177@mail.ru. Это только начало. Впереди ждет невероятное! Увидимся! 😉
+</p>
+
+<p>
+  En:
+  
+  If you have some ideas how can I improve the project write please to my e-mail: den_maverick177@mail.ru. This is only start. It will be amazing! See you later! 😉
 </p>
