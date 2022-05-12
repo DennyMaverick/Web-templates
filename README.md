@@ -159,7 +159,9 @@ const themes = {
 
 
 <p align="center">
+  
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-switcher.gif)
+  
 </p>  
   
   
