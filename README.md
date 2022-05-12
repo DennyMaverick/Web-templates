@@ -118,7 +118,9 @@ const themes = {
   ```
   
 <p align="center">
-  ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
+  
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
+  
 </p>
 
 <p>
