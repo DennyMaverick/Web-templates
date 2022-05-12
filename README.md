@@ -9,6 +9,13 @@
   ***
 
   Данный проект был создан чтобы продемонстрировать навыки в веб-разработке. Это мини-портфолио, куда я буду сохранять pet-проекты и не только. При работе над проектом были использованы следующие технологии:
+  
+![css/html/javascript](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/1.svg)
+![jquery / sclick](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/4.svg) 
+![flexbox](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/2.svg)
+![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/3.svg)
+![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/5.svg)
+![scss](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/6.svg)
 
 <p>
   En:
