@@ -157,8 +157,14 @@ const themes = {
   Also it was made: when you open the modal window with the Theme's Switcher In Modal Windows project, you can see that the colors change in modal window after click on next button or prev button. Changes are smooth:
 </p>
 
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-switcher.gif)
 
+<p align="center">
+
+  ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-switcher.gif)
+
+</p>  
+  
+  
 <p>
   Ru:
   
