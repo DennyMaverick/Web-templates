@@ -1,6 +1,6 @@
 # Web-templates
 
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/dark.png)
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/dark.png)
 
 
   
@@ -10,12 +10,12 @@
 
   Данный проект был создан чтобы продемонстрировать навыки в веб-разработке. Это мини-портфолио, куда я буду сохранять pet-проекты и не только. При работе над проектом были использованы следующие технологии:
   
-![css/html/javascript](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/1.svg)
-![jquery / sclick](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/4.svg) 
-![flexbox](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/2.svg)
-![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/3.svg)
-![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/5.svg)
-![scss](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/6.svg)
+![css/html/javascript](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/1.svg)
+![jquery / sclick](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/4.svg) 
+![flexbox](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/2.svg)
+![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/3.svg)
+![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/5.svg)
+![scss](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/6.svg)
 
 <p>
   En:
@@ -26,12 +26,12 @@
 For making the project I used these web-technologies: 
 </p>
 
-![css/html/javascript](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/1.svg)
-![jquery / sclick](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/4.svg) 
-![flexbox](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/2.svg)
-![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/3.svg)
-![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/5.svg)
-![scss](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/bages/6.svg)
+![css/html/javascript](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/1.svg)
+![jquery / sclick](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/4.svg) 
+![flexbox](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/2.svg)
+![gulp](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/3.svg)
+![webpack](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/5.svg)
+![scss](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/bages/6.svg)
 
 
 <p>
@@ -119,7 +119,7 @@ const themes = {
   
 <p align="center">
   
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/light.png)
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/light.png)
   
 </p>
 
@@ -139,7 +139,7 @@ const themes = {
   The projects in portfolio will be added regularly. Now there is one available project and one announced project. First is the theme's switcher in modal windows: 
 </p>
 
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-dark.png)
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/modal-dark.png)
 
 <p>
   Ru:
