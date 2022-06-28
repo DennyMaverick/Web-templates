@@ -146,8 +146,14 @@ const themes = {
   
   ***
   
-  Также было сделано: когда вы открываете модальное окно с проектом 'Переключатель тем в модальных окнах' вы можете увидеть, что цвета меняются в модальном окне после клика на кнопки 'Вперед' и 'Назад'. Изменения происходят плавно.
+  Также было сделано: когда вы открываете модальное окно с проектом 'Переключатель тем в модальных окнах' вы можете увидеть, что цвета меняются в модальном окне после клика на кнопки 'Вперед' и 'Назад'. Изменения происходят плавно:
 </p>
+
+<p align="center">
+  
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/modal-switcher.gif)
+  
+</p> 
 
 <p>
   En:
@@ -160,7 +166,7 @@ const themes = {
 
 <p align="center">
   
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/img/for-readme/modal-switcher.gif)
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/modal-switcher.gif)
   
 </p>  
   
@@ -170,7 +176,7 @@ const themes = {
   
   ***
   
-  Это было создано с помощью этого кода:
+  Это было создано с помощью данного кода:
 </p>
 
 <p>
