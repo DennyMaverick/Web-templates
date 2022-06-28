@@ -130,6 +130,19 @@ const themes = {
   
   Когда пользователь выключает свой браузер, тема сохраняется. Это достигнуто благодаря local storage. В момент клика значение 'theme' устанавливается в local storage на light или dark:
   </p>
+  
+  ```
+  switchers.forEach((switcher) => {
+  switcher.addEventListener("click", function (e) {
+    if (e.target.closest(".switcher").dataset.theme === "light") {
+      themeSwitch("light")
+    } else {
+      themeSwitch("dark")
+    }
+    localStorage.setItem("theme", this.dataset.theme)
+  })
+})
+  ```
 
   <p>
   En:
