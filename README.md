@@ -127,6 +127,29 @@ const themes = {
   Ru:
   
   ***
+  Далее нужно выбрать все элементы, которые меняют цвет. Для этого нужно пройтись по объекту 'themes', ключи которого совпадают с классами(тегами) нужных элементов, и пройтись по коллекции методом forEach, добавив каждому элементу соответствующий класс:
+  
+  ```
+  for (key in themes) {
+    const elems = document.querySelectorAll(key)
+    elems.forEach((elem) => {
+      if ((elem && themes[key].theme.light) || themes[key].theme.dark) {
+        elem.classList.remove(`${themes[key].theme.dark}`, `${themes[key].theme.light}`)
+
+        if (theme === "light") {
+          elem.classList.add(`${themes[key].theme.light}`)
+          switcherLight.classList.add("hide")
+          switcherDark.classList.remove("hide")
+  
+        } else {
+          elem.classList.add(`${themes[key].theme.dark}`)
+          switcherDark.classList.add("hide")
+          switcherLight.classList.remove("hide")
+        }
+      }
+    })
+  }
+  ```
   
   Когда пользователь выключает свой браузер, тема сохраняется. Это достигнуто благодаря local storage. В момент клика значение 'theme' устанавливается в local storage на light или dark:
   </p>
@@ -142,12 +165,35 @@ const themes = {
     localStorage.setItem("theme", this.dataset.theme)
   })
 })
-  ```
+  ```  
 
   <p>
   En:
   
   ***
+ Next it needs to choose all elements, which change the color. For it needs to go througth the object 'themes', that has the keys according with classes(tegs) of needed elements, and go throught the collection using the methed forEach, adding to each element an according class:
+  
+  ```
+  for (key in themes) {
+    const elems = document.querySelectorAll(key)
+    elems.forEach((elem) => {
+      if ((elem && themes[key].theme.light) || themes[key].theme.dark) {
+        elem.classList.remove(`${themes[key].theme.dark}`, `${themes[key].theme.light}`)
+
+        if (theme === "light") {
+          elem.classList.add(`${themes[key].theme.light}`)
+          switcherLight.classList.add("hide")
+          switcherDark.classList.remove("hide")
+  
+        } else {
+          elem.classList.add(`${themes[key].theme.dark}`)
+          switcherDark.classList.add("hide")
+          switcherLight.classList.remove("hide")
+        }
+      }
+    })
+  }
+  ``` 
   
   When user switched off his browser the theme is saved. It was made using local storage. The value 'theme' in local storage changes on dark or light in moment when user clicked on the sun or moon icons:
   </p>
@@ -163,7 +209,7 @@ const themes = {
     localStorage.setItem("theme", this.dataset.theme)
   })
 })
-  ```
+  ```  
   
 <p align="center">
   
