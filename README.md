@@ -179,6 +179,8 @@ const themes = {
   Проекты в портфолио будут добавляться регулярно. Сейчас там доступен один проект, еще один анонсирован. Первым проектом является 'Переключатель тем в модальных окнах': 
 </p>
 
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/modal-dark.png)
+
 <p>
   En:
   
