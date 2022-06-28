@@ -1,0 +1,14 @@
+.slider {
+  &__item.slide {
+    display: flex;
+    min-width: 0;
+  }
+  &__item--text {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__item:focus {
+    outline: none;
+  }
+}
