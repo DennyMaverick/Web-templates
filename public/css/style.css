@@ -279,16 +279,10 @@ a:focus {
   transition: background-image .5s ease-in;
 }
 
-.work--announced-light::after {
-  background-image: url("../img/announced/announced-light.png");
+.work--announced::after {
+  background-image: url("../img/announced/announced-dark.png");
   right: -67px;
   top: -53px;
-}
-
-.work--announced-dark::after {
-  background-image: url("../img/announced/announced-dark.png");
-  right: -55px;
-  top: -58px;
 }
 
 .portfolio {
@@ -601,11 +595,7 @@ a:focus {
     background: url("../img/bg/light-bg.webp") center/cover no-repeat;
   }
 
-  .work--announced-light::after {
-    background-image: url("../img/announced/announced-light.webp");
-  }
-
-  .work--announced-dark::after {
+  .work--announced::after {
     background-image: url("../img/announced/announced-dark.webp");
   }
 }
@@ -650,14 +640,9 @@ a:focus {
     transform: scale(0.7);
   }
 
-  .work--announced-light::after {
+  .work--announced::after {
     right: -80px;
     top: -70px;
-  }
-
-  .work--announced-dark::after {
-    right: -80px;
-    top: -80px;
   }
 
   .portfolio {
