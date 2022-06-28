@@ -83,7 +83,7 @@ const themes = {
   
   ***
   
-  This portfolio has theme's switcher. Colors change smoothly, for this I used the object there I put all selectors and when the theme is checked I adding to all these selectors the class with modificator --light or --dark: 
+  This portfolio has theme's switcher. Colors change smoothly, for this I used the object there I put all selectors and when the theme is checked I adding to all these selectors the class with a modificator --light or --dark: 
 </p>
 
   
@@ -235,7 +235,7 @@ function themeSwitch(theme) {
   }
   ``` 
   
-  When user switched off his browser the theme is saved. It was made using local storage. The value 'theme' in local storage changes on dark or light in moment when user clicked on the sun or moon icons:
+  When user will switch off his browser the theme will be saved. It was made using local storage. The value 'theme' in local storage changes on dark or light in the moment when user had clicked on the sun or the moon icons:
   </p>
   
   ```
@@ -251,7 +251,7 @@ function themeSwitch(theme) {
 })
   ```  
 
-When the project starts firstly, the theme is choosen default — 'Dark', else the function starts that activate the needed theme:
+When the project starts in first, the theme is choosen default — 'Dark', else the function starts that activate the needed theme:
 
 ```
 const activeTheme = localStorage.getItem("theme")
