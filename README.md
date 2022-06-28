@@ -42,6 +42,41 @@ For making the project I used these web-technologies:
   Портфолио содержит переключатель тем. Цвета меняются плавно, для использования данного переключателя был создан объект, куда я положил названия селекторов в качестве ключей. Когда тема выбрана, я добавляю ко всем элементам, которые имеют данные селекторы, модификаторы --dark или --light:
 </p>
 
+```
+const themes = {
+  header: {
+    theme: {
+      light: "header--light",
+      dark: "header--dark",
+    },
+  },
+  ".works__item": {
+    theme: {
+      light: "works__item--light",
+      dark: "works__item--dark",
+    },
+  },
+  body: {
+    theme: {
+      light: "body--light",
+      dark: "body--dark",
+    },
+  },
+  ".work--announced": {
+    theme: {
+      light: "work--announced-light",
+      dark: "work--announced-dark",
+    },
+  },
+  ".theme__popup": {
+    theme: {
+      light: "theme__popup--light",
+      dark: "theme__popup--dark",
+    },
+  },
+}
+```
+
 <p>
   
   En:
