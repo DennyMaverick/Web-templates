@@ -167,6 +167,46 @@ const themes = {
 })
   ```  
 
+Когда сайт впервые запускается, выбирается тема по умочанию — 'Dark', иначе запускается функция, что активирует нужную тему:
+
+```
+const activeTheme = localStorage.getItem("theme")
+
+if (activeTheme === null) {
+  themeSwitch("dark")
+} else {
+  themeSwitch(activeTheme)
+}
+```
+
+Полная версия функции включения темы:
+```
+function themeSwitch(theme) {
+  const switcherLight = document.querySelector(".theme__light")
+  const switcherDark = document.querySelector(".theme__dark")
+  for (key in themes) {
+  
+    const elems = document.querySelectorAll(key)
+    elems.forEach((elem) => {
+      if ((elem && themes[key].theme.light) || themes[key].theme.dark) {
+        elem.classList.remove(`${themes[key].theme.dark}`, `${themes[key].theme.light}`)
+
+        if (theme === "light") {
+          elem.classList.add(`${themes[key].theme.light}`)
+          switcherLight.classList.add("hide")
+          switcherDark.classList.remove("hide")
+          
+        } else {
+          elem.classList.add(`${themes[key].theme.dark}`)
+          switcherDark.classList.add("hide")
+          switcherLight.classList.remove("hide")
+        }
+      }
+    })
+  }
+}
+```
+
   <p>
   En:
   
@@ -210,6 +250,47 @@ const themes = {
   })
 })
   ```  
+
+When the project starts firstly, the theme is choosen default — 'Dark', else the function starts that activate the needed theme:
+
+```
+const activeTheme = localStorage.getItem("theme")
+
+if (activeTheme === null) {
+  themeSwitch("dark")
+} else {
+  themeSwitch(activeTheme)
+}
+```
+
+The full version of the theme switching:
+```
+function themeSwitch(theme) {
+  const switcherLight = document.querySelector(".theme__light")
+  const switcherDark = document.querySelector(".theme__dark")
+  for (key in themes) {
+  
+    const elems = document.querySelectorAll(key)
+    elems.forEach((elem) => {
+      if ((elem && themes[key].theme.light) || themes[key].theme.dark) {
+        elem.classList.remove(`${themes[key].theme.dark}`, `${themes[key].theme.light}`)
+
+        if (theme === "light") {
+          elem.classList.add(`${themes[key].theme.light}`)
+          switcherLight.classList.add("hide")
+          switcherDark.classList.remove("hide")
+          
+        } else {
+          elem.classList.add(`${themes[key].theme.dark}`)
+          switcherDark.classList.add("hide")
+          switcherLight.classList.remove("hide")
+        }
+      }
+    })
+  }
+}
+```
+  
   
 <p align="center">
   
