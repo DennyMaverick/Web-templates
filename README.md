@@ -487,5 +487,5 @@ module.exports = jquerylib
   ***
   To launch the project you can click on this link: https://dennymaverick.github.io/Web-templates/
   
-  If you have some ideas how can I improve the project write please to my e-mail: den_maverick177@mail.ru. This is only start. It will be amazing! See you later! 😉
+  If you have some ideas how can I improve the project write please to my e-mail: den_maverick177@mail.ru. This is only the start. It will be amazing! See you later! 😉
 </p>
