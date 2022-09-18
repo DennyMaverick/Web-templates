@@ -30,9 +30,13 @@
     @include bp-desk(mobile) {
       padding: 8rem 2rem 2rem;
       border-radius: 0;
+      min-height: 100vh;
     }
     &--light {
       background-color: $white;
+    }
+    &--converter {
+      background-color: #5f818f;
     }
   }
   &__title {
@@ -83,5 +87,8 @@
   }
   &__close-line:nth-child(2) {
     transform: rotate(-45deg);
+  }
+  &__slider {
+    margin-bottom: 40px;
   }
 }
