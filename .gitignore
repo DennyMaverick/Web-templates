@@ -1,9 +1,1 @@
 node_modules
-src
-config
-task
-gulpfile.js
-package.json
-package-lock.json
-.prettierrc
-.editorConfig
