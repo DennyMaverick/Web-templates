@@ -12,6 +12,7 @@
     outline: none;
   }
   .slick-dots {
+    margin-top: 100px;
     display: flex;
     gap: 10px;
     li {
@@ -21,6 +22,11 @@
         height: 11px;
         background-color: #deb887;
         border-radius: 50%;
+      }
+    }
+    li.slick-active {
+      button {
+        background-color: $black;
       }
     }
   }

@@ -502,6 +502,7 @@ a:focus {
 }
 
 .slider .slick-dots {
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -514,6 +515,10 @@ a:focus {
   height: 11px;
   background-color: #deb887;
   border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #2b2b2b;
 }
 
 .slide__img {
