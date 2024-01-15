@@ -57,7 +57,7 @@ dataModals.forEach(function (modal) {
       adaptiveHeight: true,
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 769,
           settings: {
             autoplay: true,
             autoplaySpeed: 17000,

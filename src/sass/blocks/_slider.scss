@@ -11,4 +11,17 @@
   &__item:focus {
     outline: none;
   }
+  .slick-dots {
+    display: flex;
+    gap: 10px;
+    li {
+      button {
+        font-size: 0;
+        width: 9px;
+        height: 11px;
+        background-color: #deb887;
+        border-radius: 50%;
+      }
+    }
+  }
 }
