@@ -11,3 +11,29 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular-400.eot");
+  src: local("Montserrat"),
+    url("../fonts/montserrat/Montserrat-Regular-400.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/montserrat/Montserrat-Regular-400.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-Regular-400.woff") format("woff"),
+    url("../fonts/montserrat/Montserrat-Regular-400.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular-600.eot");
+  src: local("Montserrat"),
+    url("../fonts/montserrat/Montserrat-Regular-600.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/montserrat/Montserrat-Regular-600.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-Regular-600.woff") format("woff"),
+    url("../fonts/montserrat/Montserrat-Regular-600.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
