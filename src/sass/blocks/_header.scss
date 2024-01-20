@@ -2,11 +2,11 @@
   background-size: contain;
   transition: background-color .5s ease-in;
   &--light {
-    background: $black;
+    background: repeat center / 50% url("../img/header/bg.png") $black;
     box-shadow: 0 0 20px $black;
   }
   &--dark {
-    background: $color-dark;
+    background: repeat center / 50% url("../img/header/bg.png") $color-dark;
     box-shadow: 0 0 20px $white;
   }
   &__inner {
