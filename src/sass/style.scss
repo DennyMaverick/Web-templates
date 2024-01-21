@@ -26,7 +26,6 @@ body {
   margin: 0;
   font-family: "Rugen", sans-serif;
   font-size: 1.5rem;
-  text-shadow: 0 0 10px $black;
   transition: color .5s ease-in, background-color .5s ease-in;
 }
 .body {
@@ -112,6 +111,9 @@ a:focus {
 @import "./blocks/footer-slider";
 @import "./blocks/footer";
 @import "./blocks/description-list";
+@import "./blocks/settings";
+
+
 // @import "./blocks/slick";
 
 // ======== helpers =========
