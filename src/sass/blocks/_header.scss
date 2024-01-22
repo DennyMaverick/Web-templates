@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  background-size: contain;
+  transition: background-color 0.5s ease-in;
+  &__settings {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    @include bp-desk(mobile) {
+      padding-left: 10px;
+      padding-right: 15px;
+    }
+  }
+  &--light {
+    background: repeat center / 30% url('../img/header/bg.png') $black;
+    box-shadow: 0 0 20px $black;
+    @include bp-desk(notebook) {
+      background: repeat center / 60% url('../img/header/bg.png') $black;
+    }
+    @include bp-desk(mobile) {
+      background: repeat center / 100% url('../img/header/bg.png') $black;
+    }
+  }
+  &--dark {
+    background: repeat center / 30% url('../img/header/bg.png') $color-dark;
+    box-shadow: 0 0 20px $white;
+    @include bp-desk(notebook) {
+      background: repeat center / 60% url('../img/header/bg.png') $black;
+    }
+    @include bp-desk(mobile) {
+      background: repeat center / 100% url('../img/header/bg.png') $black;
+    }
+  }
+  &__inner {
+    position: relative;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    color: $color-grey;
+    text-shadow: 0 0 10px $black;
+    @include bp-desk(notebook) {
+      font-size: 24px;
+    }
+    @include bp-desk(mobile) {
+      font-size: 15px;
+    }
+  }
+}
