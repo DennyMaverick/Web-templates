@@ -1,0 +1,12 @@
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include bp-desk(tablet) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @include bp-desk(mobile) {
+    padding-top: 35px;
+    padding-bottom: 0;
+  }
+}

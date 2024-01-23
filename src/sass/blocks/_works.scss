@@ -1,0 +1,36 @@
+.works {
+  &__cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__item {
+    overflow: hidden;
+    width: 30.333%;
+    margin: 1%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: box-shadow 0.4s ease-in;
+    @include bp-desk(tablet) {
+      width: 48%;
+    }
+    @include media-down(600px) {
+      width: 70%;
+    }
+    @include media-down(400px) {
+      width: 100%;
+    }
+    &--light {
+      box-shadow: 0 0 2px $black;
+      &:hover {
+        box-shadow: 0 0 10px $black;
+      }
+    }
+    &--dark {
+      box-shadow: 0 0 2px $white;
+      &:hover {
+        box-shadow: 0 0 10px $white;
+      }
+    }
+  }
+}
