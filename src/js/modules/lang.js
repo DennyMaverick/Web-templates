@@ -33,6 +33,54 @@ const langs = {
     ru: 'Генератор кодов быстрого отклика',
     en: 'Qr-codes generator',
   },
+  'theme-switcher-title': {
+    ru: 'Переключатель темы в модальных окнах',
+    en: 'Theme`s Switcher In Modal Windows',
+  },
+  'converter-title': {
+    ru: 'Конвертер валют',
+    en: 'Currency Converter',
+  },
+  'converter-desc': {
+    ru: 'Перед вами проект, начало которого было положено на интенсиве веб-школы WebCademy. И в дальнейшем было усовершенствовано следующее:',
+    en: 'You can see the project the start was on intensive of Web-school Web-cademy. And it was moderned next:',
+  },
+  'converter-desc-item-1': {
+    ru: 'Есть возможность конвертации валют (четыре доступные валюты: рубль, доллар, евро и фунт стерлинга) взаимно между собой (возможна обратная конвертация)',
+    en: 'The application can allow to convert currencies (4 of these are allowed: ruble, dollar, euro and pounds), it has also the reverse conversion',
+  },
+  'converter-desc-item-2': {
+    ru: 'Был полностью изменен дизайн: добавлено 3 цветовых схемы, что позволяет переключаться на любую из трех тем: темную, светлую и лунную',
+    en: 'It was changed the design of the site: added three color schemes, that allows to switch on any of three themes: dark, light and moon',
+  },
+  'converter-desc-item-3': {
+    ru: 'Также добавлена функция переключения языков на английский и русский',
+    en: 'The function to switch the languages on English and Russian was added',
+  },
+  'converter-desc-item-4': {
+    ru: 'Добавлена функция увеличения / уменьшения значения в текстовом поле ввода данных с помощью колесика мыши, что позволяет быстрее вводить данные не используя клавиатуру',
+    en: 'It was added the function to increase and decrease the values in the text field using the wheel of the mouse that allows to enter the data faster not using the keyboard',
+  },
+  'converter-desc-item-5': {
+    ru: 'Добавлена фавиконка, что позволяет видеть во вкладке браузера мини-изображение а также, если пользователь захочет добавить приложение на рабочий стол компьютера или смартфона, ему также будет доступно видеть нестандартный ярлык операционной системы, а красочную иконку веб-приложения. (Это достигнуто благодаря gulp-задаче, которая генерирует фавиконки для различных устройств: Apple, Windows, Android и других)',
+    en: 'It was added the favicon that allows to see the mini-picture in the browser tab and if the user wants to add the application on the desktop of PC or mobile phone he also will see not default label but the colorful icon of the web-application. (It was made using gulp-task that does generate the favicons for different devices: Apple, Windows, Android and others)',
+  },
+  'mobile-nav-light-theme': {
+    ru: 'Светлая тема',
+    en: 'Light theme',
+  },
+  'mobile-nav-dark-theme': {
+    ru: 'Тёмная тема',
+    en: 'Dark theme',
+  },
+  'english-version': {
+    ru: 'Английская версия',
+    en: 'English version',
+  },
+  'russian-version': {
+    ru: 'Английская версия',
+    en: 'Russian version',
+  },
 };
 
 const titles = {
@@ -42,19 +90,48 @@ const titles = {
   // },
 };
 
-const repeatTitles = {
-  // up: {
-  //   ru: "Наверх",
-  //   en: "Up",
-  // },
-};
+// const repeatTitles = {
+// "telegram-intro": {
+//   ru: "Мой телеграм",
+//   en: "My telegram",
+// },
+// };
 
 const repeatElems = {
-  'about-nav-title': {
-    ru: 'О проекте',
-    en: 'About',
+  'theme-switcher-slide-text-1': {
+    ru: 'Этот проект может помочь решить вашу задачу с подключением темы в модальных окнах. Просто кликните на иконку луны, и темная цветовая схема установится. Переключение темы происходит плавно, и тема сохраняется при выключении браузера. Когда у вас есть переключатель тем, сайт становится более привлекательным и красивым!',
+    en: 'This project can help to decide your task with the fast theme`s switching on dark in modal windows. Just click on the moon`s icon and dark theme will be on. Theme switching is smooth and the theme is saved when the browser is turned off. When you have the theme`s switcher, your site is more attractive and beautiful!',
+  },
+  'theme-switcher-slide-text-2': {
+    ru: 'Также вы можете установить светлую цветовую схему. Для этого вам нужно просто кликнуть на иконку солнца. И ваша цветовая схема будет применена. Приятные цвета и дизайн позволят вашему сайту стать идеальным! Это будет работать даже когда у вас много модальных окон. Вы можете использовать этот переключатель тем в различных местах вашего сайта.',
+    en: 'Also you can set the light theme. For this you need just to click on the sun`s icon. And your theme will be on. Pleasant colors and design let your site be perfect! It will work even when you have a lot modal windows. You can use it in different places on your site.',
+  },
+  'btn-next': {
+    ru: 'Вперед',
+    en: 'Next',
+  },
+  'btn-prev': {
+    ru: 'Назад',
+    en: 'Prev',
+  },
+  'more-detailed-info': {
+    ru: 'Наиболее детальная информация о проекте',
+    en: 'More detailed information about the project',
+  },
+  'link-to-the-project': {
+    ru: 'Ссылка на проект',
+    en: 'Link to the project',
+  },
+  'nav-portfolio': {
+    ru: 'Портфолио',
+    en: 'Portfolio',
+  },
+  'nav-contacts': {
+    ru: 'Контакты',
+    en: 'Contacts',
   },
 };
+
 
 // ====== Секция Search / placeholders
 

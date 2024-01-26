@@ -41,6 +41,8 @@
   }
   &__title {
     font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
     margin-bottom: 3rem;
     color: $orange;
     transition: color .3s ease-in;
