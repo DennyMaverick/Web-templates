@@ -78,8 +78,60 @@ const langs = {
     en: 'English version',
   },
   'russian-version': {
-    ru: 'Английская версия',
+    ru: 'Русская версия',
     en: 'Russian version',
+  },
+  'lang-switcher-title': {
+    ru: 'Переключатель языков',
+    en: 'Language`s switcher',
+  },
+  'lang-switcher-desc-1': {
+    ru: 'Данный проект представляет собой сайт, подробно описывающий, как подключать функцию переключения языков на небольшие сайты, такие как лэндинги.',
+    en: 'This project is the site where you can see the detailed information how to set the function of swithing the languages using on not big sites such as landings.',
+  },
+  'lang-switcher-desc-2': {
+    ru: 'Технологии и инструменты, которые были использованы:',
+    en: 'The technologies and instruments were used:',
+  },
+  'password-generator-title': {
+    ru: 'Генератор паролей',
+    en: 'Password generator',
+  },
+  'password-generator-desc-start': {
+    ru: 'Данное web-приложение позволяет генерировать пароль различного уровня сложности. Сложность пароля увеличивается по мере роста символов в нем, а также при добавлении специальных символов',
+    en: 'The web-application allows to generate the passwords of any level of dificulties. The dificult of the password does increase when the symbols stand a lot and also when the special symbols are added',
+  },
+  functional: {
+    ru: 'Приложение поддерживает следующий функционал:',
+    en: 'The application allows next functionality:',
+  },
+  'password-generator-desc-1': {
+    ru: 'Чтобы начать пользоваться приложением, нужно ввести количество символов, если этого не сделать, - на экране появится всплывающее окно - подсказка',
+    en: 'To start the app you need to enter the quontity of symbols. If you will not do this - the popup window will display',
+  },
+  'password-generator-desc-2': {
+    ru: 'Есть опция выбора наличия специальных символов в пароле, если она выбрана - в пароль будут случайным образом добавлены специальные симвлолы: ! , @ , # , $ , % , ^ , & , *',
+    en: 'The option to choose the special symbols does exist in the password. If it has choosen - the special symbols will be added to the password by random method: ! , @ , # , $ , % , ^ , & , *',
+  },
+  'password-generator-desc-3': {
+    ru: 'После выбора всех опций, - в версии для компьютеров, ширина экрана которых больше 992px, слева плавно появится боковая панель с набором паролей, случайным образом сгенерированных. В версиях для мобильных устройств - пароли появятся в нижней части экрана',
+    en: 'When all options will be choosen the sidebar with the set of the passwords (that do generate by random method) will be displayd from left side (it is available for PC and devices with the width more 992px). For mobile devices the passwords will appear in the bottom side of the display',
+  },
+  'password-generator-desc-4': {
+    ru: 'Доступна функция копирования пароля, для этого нужно кликнуть по соответствующей иконке рядом с паролем',
+    en: 'The function of copying of the password allows. For this you need to click to the according icons that are near with the password',
+  },
+  'password-generator-desc-5': {
+    ru: 'Если ни один из паролей не понравился, можно снова нажать на кнопку "Сгенерировать" и пароли обновятся',
+    en: 'If you do not like all of passwords you can press the button `Generate` again and the password will be updated',
+  },
+  'password-generator-desc-6': {
+    ru: 'При клике на кнопку "Сбросить", боковая панель с набором паролей плавно закрывается, все опции сбрасываются',
+    en: 'When you click by the button `Reset`, the sidebar with the set of passwords will smoothly close and all options will reset',
+  },
+  'contact-with-author': {
+    ru: 'Связаться с автором сайта:',
+    en: 'Contact to the author:',
   },
 };
 
@@ -122,6 +174,10 @@ const repeatElems = {
     ru: 'Ссылка на проект',
     en: 'Link to the project',
   },
+  'repository-git-link': {
+    ru: 'Ссылка на репозиторий GitHub',
+    en: 'Link to the repository GitHub',
+  },
   'nav-portfolio': {
     ru: 'Портфолио',
     en: 'Portfolio',
@@ -129,6 +185,34 @@ const repeatElems = {
   'nav-contacts': {
     ru: 'Контакты',
     en: 'Contacts',
+  },
+  'technology-gulp': {
+    ru: 'Менеджер проектов gulp',
+    en: 'The project`s manager gulp',
+  },
+  'technology-aos': {
+    ru: 'Библиотека AOS, которая создает эффекты анимации на странице',
+    en: 'The library AOS that makes the effects of the animation on the page',
+  },
+  'lang-switching-function': {
+    ru: 'Возможность изменить язык сайта на русский или английский',
+    en: 'The function to change the language on Russian or English on the site',
+  },
+  'technology-bem': {
+    ru: 'BEM-naming, методология, основная концепция которой, - использовать в наименовании классов блоки, элементы и модификаторы',
+    en: 'BEM-naming,  the methodology that has the main conception to use the blocks, elements and modificators as the name of classes',
+  },
+  'switch-vendor-libraries': {
+    ru: 'Подключение сторонних библиотек (в проекте используется только одна) осуществляется через npm, в менеджере проектов есть задача, которая подключает все нужные js-библиотеки, также есть задача для подключения css и scss библиотек',
+    en: 'The switching the vendor libraries to the project (the project has only one library) does using npm, the task has in the manager of projects that switches all needed js-libraries. Also the task does exist to switch on the css ans scss libraries to the project',
+  },
+  'settings-in-the-project': {
+    ru: 'Для удобства в проекте есть директория с настройками, в которой есть 2 файла конфигурации, в одном содержатся все пути, а в другом - все настройки для плагинов сборки gulp',
+    en: 'The directory with settings does exist in the project. It is for comfort developing the project. Here are two files with configuration: the paths and the settings of plugins of gulp',
+  },
+  'technology-links': {
+    ru: 'Технологии, инструменты и ссылки на проект:',
+    en: 'The technologies, tools and links to the project:',
   },
 };
 

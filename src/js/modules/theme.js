@@ -39,6 +39,24 @@ const themes = {
       dark: 'mobile-menu__link--dark',
     },
   },
+  '.socials--vk-icon': {
+    theme: {
+      light: 'socials--vk-icon--light',
+      dark: 'socials--vk-icon--dark',
+    },
+  },
+  '.socials--telegram-icon': {
+    theme: {
+      light: 'socials--telegram-icon--light',
+      dark: 'socials--telegram-icon--dark',
+    },
+  },
+  '.socials--git-hub-icon': {
+    theme: {
+      light: 'socials--git-hub-icon--light',
+      dark: 'socials--git-hub-icon--dark',
+    },
+  },
 };
 function themeSwitch(theme) {
   const switcherLight = document.querySelector('.theme__light');

@@ -6,7 +6,7 @@
   background-color: $white;
   border: 1px solid $white;
   width: 20px;
-  height: 18px;
+  height: 16px;
   @include bp-desk(mobile) {
     display: flex;
   }

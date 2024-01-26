@@ -5,4 +5,14 @@
     font-size: 10px;
     margin-bottom: 25px;
   }
+  &__contacts {
+    display: flex;
+    gap: 10px;
+    @include bp-desk(mobile) {
+      flex-direction: column;
+    }
+  }
+  &__copy {
+    line-height: 1.4;
+  }
 }
