@@ -7,16 +7,17 @@
   background-image: url('../img/header/bg.png');
   transition: background-color 0.5s ease-in;
   &__nav {
-    padding: 20px;
+    padding: 16.25px;
     background-color: $black;
     border: 2px solid $white;
     position: fixed;
     z-index: 1000;
     right: 20px;
     top: 20px;
-    transition: .3s ease-in background-color;
+    transition: .3s ease-in background-color, .3s ease-in border;
     &:hover {
       background-color: $white;
+      border: 2px solid $black;
     }
     &:hover .nav-menu__link {
       color: $black;
@@ -80,5 +81,11 @@
     @include bp-desk(mobile) {
       font-size: 15px;
     }
+  }
+  &__menu-burger {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 1000;
   }
 }

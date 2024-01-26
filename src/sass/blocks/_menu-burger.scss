@@ -1,0 +1,37 @@
+.menu-burger {
+  display: none;
+
+  cursor: pointer;
+  align-items: center;
+  background-color: $white;
+  border: 1px solid $white;
+  width: 20px;
+  height: 18px;
+  @include bp-desk(mobile) {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background-color: $black;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -5px;
+      height: 3px;
+      width: 100%;
+      background-color: $black;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 5px;
+      height: 3px;
+      width: 100%;
+      background-color: $black;
+    }
+  }
+}

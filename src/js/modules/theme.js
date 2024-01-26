@@ -27,6 +27,18 @@ const themes = {
       dark: 'theme__popup--dark',
     },
   },
+  '.mobile-menu': {
+    theme: {
+      light: 'mobile-menu--light',
+      dark: 'mobile-menu--dark',
+    },
+  },
+  '.mobile-menu__link': {
+    theme: {
+      light: 'mobile-menu__link--light',
+      dark: 'mobile-menu__link--dark',
+    },
+  },
 };
 function themeSwitch(theme) {
   const switcherLight = document.querySelector('.theme__light');

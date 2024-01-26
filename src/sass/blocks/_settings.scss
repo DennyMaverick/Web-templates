@@ -1,7 +1,11 @@
 .settings {
+  cursor: pointer;
   background-color: $black;
   border: $border-settings-board solid $white;
   transition: 0.3s ease-in background-color, 0.3s ease-in border;
+  @include bp-desk(mobile) {
+    display: none;
+  }
   &__desc {
     display: flex;
     justify-content: space-between;
@@ -27,7 +31,6 @@
     margin-right: 40px;
     transition: 0.3s ease-in color;
     @include bp-desk(mobile) {
-      margin-right: 27px;
     }
   }
   &:hover &__icon {
@@ -59,10 +62,7 @@
     margin: -2px;
     transform: translateX(0) scale(0);
     transition: 0.3s ease-in transform, 0.3s ease-in opacity;
-    @include media-down(500px) {
-      right: 70px;
-      top: 54px;
-    }
+
     &::after {
       content: '';
       position: absolute;
