@@ -1,6 +1,6 @@
 # Web-templates
 
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/main.png)
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/slide-1.png)
 
 
   
@@ -294,7 +294,7 @@ function themeSwitch(theme) {
   
 <p align="center">
   
-![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/slide-1.png)
+![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/main.png)
   
 </p>
 
