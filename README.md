@@ -1,4 +1,4 @@
-# Web-templates
+# Портфолио Pet-проекты
 
 ![Picture to the project](https://github.com/DennyMaverick/Web-templates/raw/main/src/img/for-readme/slide-1.png)
 
