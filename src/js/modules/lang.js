@@ -151,12 +151,20 @@ const titles = {
 
 const repeatElems = {
   'theme-switcher-slide-text-1': {
-    ru: 'Этот проект может помочь решить вашу задачу с подключением темы в модальных окнах. Просто кликните на иконку луны, и темная цветовая схема установится. Переключение темы происходит плавно, и тема сохраняется при выключении браузера. Когда у вас есть переключатель тем, сайт становится более привлекательным и красивым!',
-    en: 'This project can help to decide your task with the fast theme`s switching on dark in modal windows. Just click on the moon`s icon and dark theme will be on. Theme switching is smooth and the theme is saved when the browser is turned off. When you have the theme`s switcher, your site is more attractive and beautiful!',
+    ru: 'Данный проект был разработан, чтобы пользователь имел возможность изменить цветовую схему сайта, находясь прямо в модальном окне. На результат реализации можно посмотреть на моем основном сайте-портфолио перейдя по',
+    en: 'This project was developed for helping to change the color scheme on the site when you are right in the modal window. On the result you can see by clicking',
+  },
+  'theme-switcher-link': {
+    ru: 'ссылке',
+    en: 'the link',
   },
   'theme-switcher-slide-text-2': {
-    ru: 'Также вы можете установить светлую цветовую схему. Для этого вам нужно просто кликнуть на иконку солнца. И ваша цветовая схема будет применена. Приятные цвета и дизайн позволят вашему сайту стать идеальным! Это будет работать даже когда у вас много модальных окон. Вы можете использовать этот переключатель тем в различных местах вашего сайта.',
-    en: 'Also you can set the light theme. For this you need just to click on the sun`s icon. And your theme will be on. Pleasant colors and design let your site be perfect! It will work even when you have a lot modal windows. You can use it in different places on your site.',
+    ru: 'Смена темы происходит плавно и происходит даже когда модальных окон на сайте большое множество. Подробнее о том как реализуется переключение темы можно найти',
+    en: 'The theme`s changing is going smoothly and works even the site has a lot of modal windows. More detailed information about it you can see by clicking this',
+  },
+  'theme-switcher-slide-2-link': {
+    ru: 'здесь',
+    en: 'link',
   },
   'btn-next': {
     ru: 'Вперед',
