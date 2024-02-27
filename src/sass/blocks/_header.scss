@@ -45,7 +45,7 @@
     }
   }
   &--light {
-    background-image: url('../img/header/bg.png') $black;
+    background: url('../img/header/bg.png') $black;
     box-shadow: 0 0 20px $black;
     @include bp-desk(notebook) {
       background-size: 60%;
@@ -55,7 +55,7 @@
     }
   }
   &--dark {
-    background-image: url('../img/header/bg.png')  $color-dark;
+    background: url('../img/header/bg.png')  $color-dark;
     box-shadow: 0 0 20px $white;
     @include bp-desk(notebook) {
       background-size: 60%;
