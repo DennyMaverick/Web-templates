@@ -28,7 +28,6 @@
   }
   &--blocked {
     position: relative;
-    background: none !important;
     &::before {
       display: flex;
       justify-content: center;
@@ -64,20 +63,18 @@
       position: absolute;
       height: 250px;
       width: 250px;
+
+      right: -67px;
+      top: -53px;
+
       z-index: 10;
       content: "";
+      background-image: url("../img/announced/announced-dark.png");
       filter: drop-shadow(0 0 5px rgb(22, 67, 171));
       background-repeat: no-repeat;
       transition: background-image 0.5s ease-in;
       @include bp-desk(mobile) {
         transform: scale(0.7);
-      }
-    }
-    &::after {
-      background-image: url("../img/announced/announced-dark.png");
-      right: -67px;
-      top: -53px;
-      @include bp-desk(mobile) {
         right: -80px;
         top: -70px;
       }
