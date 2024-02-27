@@ -125,7 +125,7 @@ a:focus {
 }
 
 .header {
-  background: url("../img/header/bg.png") repeat center/40%;
+  background: url("../img/header/bg.png") repeat center #2b2b2b;
   position: relative;
   -webkit-transition: background-color .5s ease-in;
   -o-transition: background-color .5s ease-in;
@@ -180,13 +180,13 @@ a:focus {
 }
 
 .header--light {
-  background: #2b2b2b;
+  background: url("../img/header/bg.png") #2b2b2b;
   -webkit-box-shadow: 0 0 20px #2b2b2b;
   box-shadow: 0 0 20px #2b2b2b;
 }
 
 .header--dark {
-  background: #6669ad;
+  background: url("../img/header/bg.png") #6669ad;
   -webkit-box-shadow: 0 0 20px #fff;
   box-shadow: 0 0 20px #fff;
 }
