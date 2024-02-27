@@ -298,7 +298,6 @@ a:focus {
 
 .work--blocked {
   position: relative;
-  background: none !important;
 }
 
 .work--blocked::before {
@@ -350,20 +349,17 @@ a:focus {
   position: absolute;
   height: 250px;
   width: 250px;
+  right: -67px;
+  top: -53px;
   z-index: 10;
   content: "";
+  background-image: url("../img/announced/announced-dark.png");
   -webkit-filter: drop-shadow(0 0 5px #1643ab);
   filter: drop-shadow(0 0 5px #1643ab);
   background-repeat: no-repeat;
   -webkit-transition: background-image .5s ease-in;
   -o-transition: background-image .5s ease-in;
   transition: background-image .5s ease-in;
-}
-
-.work--announced::after {
-  background-image: url("../img/announced/announced-dark.png");
-  right: -67px;
-  top: -53px;
 }
 
 .portfolio {
@@ -1164,9 +1160,6 @@ a:focus {
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
-  }
-
-  .work--announced::after {
     right: -80px;
     top: -70px;
   }
