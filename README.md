@@ -216,7 +216,6 @@ function themeSwitch(theme) {
 </p>
 
 
-  Ru:
   
   ***
   Чтобы протестировать проект, вы можете перейти по ссылке: https://dennymaverick.github.io/Web-templates/
