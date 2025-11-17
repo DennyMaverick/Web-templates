@@ -205,13 +205,7 @@ function themeSwitch(theme) {
  Здесь используется slick слайдер. Это jQuery библиотека, которая помогает устанавливать на сайты кастомизированные слайдеры.
 </p>
 
-<p>
- 
-  
-  ***
-  
-  Here is slick slider used. It is jQuery library that helps to set custom sliders on sites.
-</p>
+
 
 <p>
 
